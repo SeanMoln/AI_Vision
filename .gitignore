@@ -1,0 +1,9 @@
+# 不要 commit 的秘密檔
+.env
+
+# Python 編譯與快取
+__pycache__/
+*.pyc
+
+# 虛擬環境
+.venv/
