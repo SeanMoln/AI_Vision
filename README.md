@@ -40,12 +40,12 @@ VISION_MODEL_NAME=gpt-4o
 #### 單一學生評分(建議使用)
 ```bash
 # 使用 shell script
-./run_single_student.sh B11276024 王淯靚
+./run_single_student.sh XXXXXX
 
 # 或直接執行 Python
 cd src
 source ../venv/bin/activate
-python grade_single_student.py B11276024 王淯靚
+python grade_single_student.py XXXXXX
 ```
 
 #### 批次評分所有學生
